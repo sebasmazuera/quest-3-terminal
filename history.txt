@@ -1,0 +1,10 @@
+  245  grep "Toulouse,JavaScript" wilders.cvs > javascript_toulouse.csv
+  246  ls javascript_toulouse.csv 
+  247  cd javascript_toulouse.csv 
+  248  cat javascript_toulouse.csv 
+  249  grep -i  "france,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+  250  cat php_france_2019.csv 
+  251  grep -E "Toulouse.*JavaScript" < wilders.cvs > javascript_toulouse.csv
+  252  grep -E "Biarritz.*JavaScript" < wilders.cvs > javascript_Biarritz.csv 
+  253  cat javascript_toulouse.csv javascript_Biarritz.csv > javascript_biarritz_toulouse.csv
+  254  history | tail -n 10 > history.txt 
